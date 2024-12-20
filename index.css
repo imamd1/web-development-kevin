@@ -83,3 +83,25 @@ nav a:hover {
   height: 300px;
   border-radius: 10%;
 }
+
+.square-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.square {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.square:hover {
+  transform: scale(1.05);
+  background-color: #e8f5e9;
+}
