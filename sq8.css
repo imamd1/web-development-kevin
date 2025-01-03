@@ -64,7 +64,7 @@ nav a:hover {
 
 .hero {
   height: 100vh;
-  background: url("assets/hero1.webp") no-repeat center center/cover;
+  background: url("assets/hero8.jpeg") no-repeat center 20%/cover;
   position: relative;
   overflow: hidden;
 }
